@@ -1,0 +1,211 @@
+body {
+  flex: 1;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  padding-top: 70px;
+  background-color: #fff;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+p {
+  margin: 0px;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.header {
+  height: 70px;
+  width: 100%;
+  border-color: #888;
+  border-width: 0;
+  border-bottom-width: 1px;
+  border-style: solid;
+  position: fixed;
+  top: 0;
+  backdrop-filter: saturate(180%) blur(20px);
+  background-color: rgba(255, 255, 255, 0.72);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #000;
+  background-color: #fafafa;
+  border-radius: 10px;
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  text-decoration: none;
+  height: 50px;
+}
+
+.link:hover {
+  background-color: #666;
+  color: #eee;
+}
+
+.topInfo {
+  display: flex;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fafafa;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 200px;
+  padding-left: 150px;
+}
+
+.textInfo {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 24px;
+  width: 100%;
+}
+
+.study {
+  font-size: 22px;
+}
+
+.aboutMe {
+  margin: 50px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  border-color: #eee;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.first {
+  overflow: auto;
+  width: 30%;
+}
+.second {
+  overflow: auto;
+  width: 30%;
+}
+.third {
+  overflow: auto;
+  width: 30%;
+}
+
+.bold {
+  font-size: 40px;
+}
+
+.content {
+  display: flex;
+
+  padding: 50px;
+  flex-direction: column;
+}
+
+.level {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-bottom: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.one {
+  display: flex;
+  width: 59%;
+}
+
+.two {
+  display: flex;
+  width: 39%;
+}
+
+.three {
+  display: flex;
+  width: 100%;
+}
+
+.card1 {
+  width: 100%;
+  height: 530px;
+  background-color: #a2d3e0;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card1:hover {
+  background-color: #73afc9;
+  cursor: pointer;
+}
+
+.cardTitle {
+  font-size: 60px;
+  font-family: 'Poppins', sans-serif;
+  color: #1d1d1f;
+}
+
+.card2 {
+  width: 100%;
+  height: 530px;
+  background-color: #f0e6f7;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card2:hover {
+  background-color: #dec7eb;
+}
+
+.card3 {
+  width: 100%;
+  height: 530px;
+  background-color: #e6f3ff;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card3:hover {
+  background-color: #a6d2ed;
+}
