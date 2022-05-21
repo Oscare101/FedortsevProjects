@@ -39,7 +39,7 @@ p {
   align-items: center;
   color: #000;
   background-color: #fafafa;
-  border-radius: 10px;
+  border-radius: 20px;
   transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   text-decoration: none;
   height: 50px;
