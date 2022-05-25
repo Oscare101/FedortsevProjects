@@ -38,7 +38,7 @@ p {
   flex-direction: row;
   align-items: center;
   color: #000;
-  background-color: #fafafa;
+  background-color: #dddddd55;
   border-radius: 10px;
   transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   text-decoration: none;
@@ -46,7 +46,7 @@ p {
 }
 
 .link:hover {
-  background-color: #666;
+  background-color: #00000055;
   color: #eee;
 }
 
@@ -74,6 +74,12 @@ p {
   justify-content: space-between;
   font-size: 24px;
   width: 100%;
+}
+
+.selfie {
+  width: 300px;
+  border-radius: 5px;
+  margin-right: 20px;
 }
 
 .study {
@@ -136,12 +142,12 @@ a {
 
 .one {
   display: flex;
-  width: 39%;
+  width: 42%;
 }
 
 .two {
   display: flex;
-  width: 59%;
+  width: 56%;
 }
 
 .three {
@@ -214,4 +220,213 @@ a {
   height: 300px;
   border-radius: 5px;
   margin-right: 20px;
+}
+
+/* For Smartphones */
+
+@media (orientation: portrait) {
+  .header {
+    height: 70px;
+    width: 100%;
+    border-color: #888;
+    border-width: 0;
+    border-bottom-width: 1px;
+    border-style: solid;
+    position: fixed;
+    top: 0;
+    backdrop-filter: saturate(180%) blur(20px);
+    background-color: rgba(255, 255, 255, 0.72);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+
+  .link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #000;
+    background-color: #dddddd55;
+    border-radius: 10px;
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    text-decoration: none;
+    height: 50px;
+  }
+
+  .topInfo {
+    display: flex;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fafafa;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .textInfo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .myName {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .name {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 20px;
+    width: 100%;
+    padding-bottom: 10px;
+  }
+
+  .selfie {
+    width: 80%;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+
+  .study {
+    font-size: 18px;
+  }
+
+  .aboutMe {
+    width: 94%;
+    margin: 3%;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-color: #eee;
+    border-width: 1px;
+    border-style: solid;
+  }
+
+  .bold {
+    font-size: 40px;
+  }
+
+  .first {
+    overflow: auto;
+    width: 100%;
+  }
+  .second {
+    overflow: auto;
+    width: 100%;
+    padding-top: 5px;
+  }
+  .third {
+    overflow: auto;
+    width: 100%;
+    padding-top: 5px;
+  }
+
+  .content {
+    display: flex;
+
+    padding: 3%;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .level {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  a {
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 10px;
+  }
+
+  .one {
+    display: flex;
+    width: 100%;
+  }
+
+  .two {
+    display: flex;
+    width: 100%;
+  }
+
+  .three {
+    display: flex;
+    width: 100%;
+  }
+
+  .card1 {
+    width: 100%;
+    height: 400px;
+    background-color: #a2d3e0;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .cardTitle {
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: #1d1d1f;
+  }
+
+  .card2 {
+    width: 100%;
+    height: 400px;
+    background-color: #f0e6f7;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .card3 {
+    width: 100%;
+    height: 400px;
+    background-color: #e6f3ff;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .cardImg {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .image {
+    width: 30%;
+    border-radius: 10px;
+    object-fit: contain;
+    margin: 5px;
+  }
 }
