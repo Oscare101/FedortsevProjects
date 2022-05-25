@@ -224,7 +224,7 @@ a {
 
 /* For Smartphones */
 
-@media (orientation: portrait) {
+@media (orientation: portrait), (max-width: 1000px) {
   body {
     overflow-x: hidden;
   }
