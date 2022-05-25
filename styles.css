@@ -341,6 +341,11 @@ a {
     color: #d3d9ed;
   }
 
+  .myContacts > p > a {
+    text-decoration: none;
+    color: #d3d9ed;
+  }
+
   .bold {
     font-size: 40px;
   }
