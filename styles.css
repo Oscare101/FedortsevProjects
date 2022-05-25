@@ -11,7 +11,7 @@ body {
 
 p {
   margin: 0px;
-  padding: 5px;
+  padding: 2px;
   font-size: 20px;
 }
 
@@ -225,6 +225,9 @@ a {
 /* For Smartphones */
 
 @media (orientation: portrait) {
+  body {
+    overflow-x: hidden;
+  }
   .header {
     height: 70px;
     width: 100%;
@@ -276,6 +279,11 @@ a {
   .myName {
     text-align: center;
     padding-bottom: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .myName > p {
+    font-size: 22px;
   }
 
   .name {
@@ -291,15 +299,15 @@ a {
     width: 80%;
     object-fit: contain;
     border-radius: 10px;
-    margin-right: 20px;
+    margin: 0px;
   }
 
   .study {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .aboutMe {
-    width: 94%;
+    width: 97%;
     margin: 3%;
     border-radius: 20px;
     overflow: hidden;
@@ -311,6 +319,16 @@ a {
     border-color: #eee;
     border-width: 1px;
     border-style: solid;
+  }
+
+  .myContacts {
+    padding: 5px;
+    border-width: 1px;
+    border-color: #112463;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: #5e70ad;
+    color: #d3d9ed;
   }
 
   .bold {
@@ -334,7 +352,6 @@ a {
 
   .content {
     display: flex;
-
     padding: 3%;
     flex-direction: column;
     width: 100%;
@@ -422,6 +439,7 @@ a {
     height: 50%;
     align-items: center;
     justify-content: center;
+    overflow: clip;
   }
 
   .image {
